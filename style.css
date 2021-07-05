@@ -1,0 +1,47 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    margin:0%;
+}
+span{
+    color: red;
+}
+h1{
+    font-size: 35px;
+    text-align: left;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+a{
+    padding: 10px 20px;
+    border-radius: 20%;
+    font-weight: 700;
+  height: 200px;
+  background-color: red; 
+  background-image: linear-gradient(red, yellow);
+}
+
+section{
+    display: flex;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.top-banner{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-size: contain;
+}
+
+.middle-banner{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: contain;
+}
